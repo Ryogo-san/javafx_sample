@@ -1,0 +1,29 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch HelloWorld",
+            "request": "launch",
+            "mainClass": "javafx_sample.HelloWorld",
+            "projectName": "javafx_sample"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HelloWorld<sandbox02>",
+            "request": "launch",
+            "mainClass": "me.osa2.java.sandbox02.HelloWOrld",
+            "projectName": "hello",
+            "vmArgs": "--module-path /home/ximia/libs/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml"
+        }
+    ]
+}
